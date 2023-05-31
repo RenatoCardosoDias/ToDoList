@@ -22,9 +22,23 @@ struct LoginView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 SecureField("Password", text: $password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-            }
+
+                Button{
+                    //Attempt log in - tentar fazer login
+
+                } label: {
+                    ZStack{
+                        RoundedRectangle(cornerRadius: 10)
+                            .foregroundColor(Color.blue)
+                        Text("Log in")
+                            .foregroundColor(Color.white)
+                            .bold()
+                    } //end ZStack
+                } //end Button label
+            } //end Form
 
             //Crate Account
+
 
             Spacer()
         } //end VStack
