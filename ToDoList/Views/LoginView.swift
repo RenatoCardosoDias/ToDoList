@@ -19,7 +19,9 @@ struct LoginView: View {
             //Login Form
             Form {
                 TextField("Email Adress", text: $email)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 SecureField("Password", text: $password)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
             }
 
             //Crate Account
