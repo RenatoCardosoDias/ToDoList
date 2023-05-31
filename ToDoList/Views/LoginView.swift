@@ -9,24 +9,18 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
+        @State var email = ""
+        @State var password = ""
+
         VStack{
             // Header
-            ZStack{
-                RoundedRectangle(cornerRadius: 0)
-                    .foregroundColor(Color.pink)
-                VStack{
-                    Text("To Do List")
-                        .font(.system(size: 50))
-                        .foregroundColor(Color.white)
-                        .bold()
-                    Text("Get things done")
-                        .font(.system(size: 30))
-                        .foregroundColor(Color.white)
-                }
-            } //end ZStack
-            .frame(width: UIScreen.main.bounds.width * 3, height: 300)
+            HeaderView()
 
             //Login Form
+            Form {
+                TextField("Email Adress", text: $email)
+                SecureField("Password", text: $password)
+            }
 
             //Crate Account
 

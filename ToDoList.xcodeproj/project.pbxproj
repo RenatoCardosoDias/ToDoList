@@ -30,6 +30,7 @@
 		8813C55E2A26A1C70009F5A7 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813C55D2A26A1C70009F5A7 /* LoginViewViewModel.swift */; };
 		8813C5602A26A1D70009F5A7 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813C55F2A26A1D70009F5A7 /* RegisterViewViewModel.swift */; };
 		8813C5622A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813C5612A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift */; };
+		88A7339D2A27CB1600CD194E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A7339C2A27CB1600CD194E /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		8813C55D2A26A1C70009F5A7 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		8813C55F2A26A1D70009F5A7 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		8813C5612A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListemItemViewViewModel.swift; sourceTree = "<group>"; };
+		88A7339C2A27CB1600CD194E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				8813C54B2A2699280009F5A7 /* LoginView.swift */,
 				8813C54D2A2699450009F5A7 /* RegisterView.swift */,
 				8813C54F2A269B7A0009F5A7 /* ToDoListemView.swift */,
+				88A7339C2A27CB1600CD194E /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8813C5542A269F5A0009F5A7 /* ToDoListemItem.swift in Sources */,
+				88A7339D2A27CB1600CD194E /* HeaderView.swift in Sources */,
 				8813C54C2A2699280009F5A7 /* LoginView.swift in Sources */,
 				8813C5602A26A1D70009F5A7 /* RegisterViewViewModel.swift in Sources */,
 				8813C5562A26A06C0009F5A7 /* MainViewViewModel.swift in Sources */,
