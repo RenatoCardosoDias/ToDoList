@@ -20,9 +20,9 @@ struct LoginView: View {
                 //Login Form
                 Form {
                     TextField("Email Adress", text: $email)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .textFieldStyle(DefaultTextFieldStyle())
                     SecureField("Password", text: $password)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .textFieldStyle(DefaultTextFieldStyle())
 
                     Button{
                         //Attempt log in - tentar fazer login
@@ -36,8 +36,8 @@ struct LoginView: View {
                                 .bold()
                         } //end ZStack
                     } //end Button label
+                    .padding()
                 } //end Form
-
                 //Crate Account
                 VStack{
                     Text("New around here?")
