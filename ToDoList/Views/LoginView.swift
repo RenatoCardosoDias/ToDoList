@@ -40,11 +40,9 @@ struct LoginView: View {
             //Crate Account
             VStack{
                 Text("New around here?")
-                Button {
+                Button("Crate An Account") {
                     //Attemp Sign In
-                } label: {
-                Text("Create An Account")
-                } //end Button - label
+                } //end Button
             } //end VStack
             Spacer()
         } //end VStack
