@@ -9,7 +9,11 @@ import SwiftUI
 
 struct RegisterView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HeaderView(title: "Register", subTitle: "Start organizing tods", angle: -15, backgroundColor: .orange)
+            Spacer()
+        }
     }
 }
 

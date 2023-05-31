@@ -15,7 +15,7 @@ struct LoginView: View {
         NavigationView{
             VStack{
                 // Header
-                HeaderView()
+                HeaderView(title: "To Do List", subTitle: "Get things done", angle: 15, backgroundColor: .pink)
 
                 //Login Form
                 Form {
@@ -38,6 +38,7 @@ struct LoginView: View {
                     } //end Button label
                     .padding()
                 } //end Form
+                .offset(y: -50)
                 //Crate Account
                 VStack{
                     Text("New around here?")
