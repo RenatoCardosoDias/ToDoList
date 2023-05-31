@@ -12,41 +12,41 @@ struct LoginView: View {
         @State var email = ""
         @State var password = ""
 
-        VStack{
-            // Header
-            HeaderView()
-
-            //Login Form
-            Form {
-                TextField("Email Adress", text: $email)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                SecureField("Password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-
-                Button{
-                    //Attempt log in - tentar fazer login
-
-                } label: {
-                    ZStack{
-                        RoundedRectangle(cornerRadius: 10)
-                            .foregroundColor(Color.blue)
-                        Text("Log in")
-                            .foregroundColor(Color.white)
-                            .bold()
-                    } //end ZStack
-                } //end Button label
-            } //end Form
-
-            //Crate Account
+        NavigationView{
             VStack{
-                Text("New around here?")
-                Button("Create An Account") {
-                    //Attemp Sign In
-                } //end Button
+                // Header
+                HeaderView()
+
+                //Login Form
+                Form {
+                    TextField("Email Adress", text: $email)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    SecureField("Password", text: $password)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+
+                    Button{
+                        //Attempt log in - tentar fazer login
+
+                    } label: {
+                        ZStack{
+                            RoundedRectangle(cornerRadius: 10)
+                                .foregroundColor(Color.blue)
+                            Text("Log in")
+                                .foregroundColor(Color.white)
+                                .bold()
+                        } //end ZStack
+                    } //end Button label
+                } //end Form
+
+                //Crate Account
+                VStack{
+                    Text("New around here?")
+                    NavigationLink("Create An Account", destination: RegisterView())
+                } //end VStack
+                .padding(.bottom, 50)
+                Spacer()
             } //end VStack
-            .padding(.bottom, 50)
-            Spacer()
-        } //end VStack
+        }
     } //end var body
 } //end struck LoginView
 
