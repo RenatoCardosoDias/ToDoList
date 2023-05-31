@@ -40,10 +40,11 @@ struct LoginView: View {
             //Crate Account
             VStack{
                 Text("New around here?")
-                Button("Crate An Account") {
+                Button("Create An Account") {
                     //Attemp Sign In
                 } //end Button
             } //end VStack
+            .padding(.bottom, 50)
             Spacer()
         } //end VStack
     } //end var body
