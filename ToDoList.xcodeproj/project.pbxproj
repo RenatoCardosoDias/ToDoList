@@ -30,6 +30,7 @@
 		8813C55E2A26A1C70009F5A7 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813C55D2A26A1C70009F5A7 /* LoginViewViewModel.swift */; };
 		8813C5602A26A1D70009F5A7 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813C55F2A26A1D70009F5A7 /* RegisterViewViewModel.swift */; };
 		8813C5622A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813C5612A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift */; };
+		881722042A2834E500614276 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881722032A2834E500614276 /* TLButton.swift */; };
 		88A7339D2A27CB1600CD194E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A7339C2A27CB1600CD194E /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		8813C55D2A26A1C70009F5A7 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		8813C55F2A26A1D70009F5A7 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		8813C5612A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListemItemViewViewModel.swift; sourceTree = "<group>"; };
+		881722032A2834E500614276 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		88A7339C2A27CB1600CD194E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 				8813C54D2A2699450009F5A7 /* RegisterView.swift */,
 				8813C54F2A269B7A0009F5A7 /* ToDoListemView.swift */,
 				88A7339C2A27CB1600CD194E /* HeaderView.swift */,
+				881722032A2834E500614276 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				8813C5562A26A06C0009F5A7 /* MainViewViewModel.swift in Sources */,
 				8813C52D2A2677860009F5A7 /* MainView.swift in Sources */,
 				8813C5482A2698630009F5A7 /* ToDoListView.swift in Sources */,
+				881722042A2834E500614276 /* TLButton.swift in Sources */,
 				8813C5582A26A08D0009F5A7 /* ProfileViewViewModel.swift in Sources */,
 				8813C54E2A2699460009F5A7 /* RegisterView.swift in Sources */,
 				8813C5462A2692660009F5A7 /* ProfileView.swift in Sources */,
