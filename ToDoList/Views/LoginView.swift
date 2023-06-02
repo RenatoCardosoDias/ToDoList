@@ -8,16 +8,24 @@
 import SwiftUI
 
 struct LoginView: View {
+	@StateObject var vm = LoginViewViewModel()
+
+//	init() {}
+	
     var body: some View {
-        @StateObject var vm = LoginViewViewModel()
 
         NavigationView{
             VStack{
                 // Header
                 HeaderView(title: "To Do List", subTitle: "Get things done", angle: 15, backgroundColor: .pink)
 
+
                 //Login Form
                 Form {
+					if !vm.errorMessage.isEmpty{
+						Text(vm.errorMessage)
+							.foregroundColor(Color.red)
+					} //end if let message
 					TextField("Email Adress", text: $vm.email)
                         .textFieldStyle(DefaultTextFieldStyle())
 						.autocapitalization(.none)
@@ -26,6 +34,7 @@ struct LoginView: View {
 
 					TLButton(title: "Log In", backgroundColor: .blue) {
 						//Attempt log in
+						vm.login()
 					} //end TLButton
                 } //end Form
                 .offset(y: -50)
