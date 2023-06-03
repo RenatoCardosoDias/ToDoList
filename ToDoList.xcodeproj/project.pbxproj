@@ -32,6 +32,7 @@
 		8813C5622A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813C5612A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift */; };
 		881722042A2834E500614276 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881722032A2834E500614276 /* TLButton.swift */; };
 		88A7339D2A27CB1600CD194E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A7339C2A27CB1600CD194E /* HeaderView.swift */; };
+		88B2EF202A2A9043000BFC00 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B2EF1F2A2A9043000BFC00 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		8813C5612A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListemItemViewViewModel.swift; sourceTree = "<group>"; };
 		881722032A2834E500614276 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		88A7339C2A27CB1600CD194E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		88B2EF1F2A2A9043000BFC00 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				8813C52E2A2677880009F5A7 /* Assets.xcassets */,
 				8813C53F2A267E1B0009F5A7 /* GoogleService-Info.plist */,
 				8813C52A2A2677860009F5A7 /* ToDoListApp.swift */,
+				88B2EF1F2A2A9043000BFC00 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				8813C55A2A26A0C10009F5A7 /* ToDoListViewViewModel.swift in Sources */,
 				8813C5622A26A1ED0009F5A7 /* ToDoListemItemViewViewModel.swift in Sources */,
 				8813C55E2A26A1C70009F5A7 /* LoginViewViewModel.swift in Sources */,
+				88B2EF202A2A9043000BFC00 /* Extensions.swift in Sources */,
 				8813C52B2A2677860009F5A7 /* ToDoListApp.swift in Sources */,
 				8813C5502A269B7A0009F5A7 /* ToDoListemView.swift in Sources */,
 				8813C54A2A2699190009F5A7 /* NewItemView.swift in Sources */,
